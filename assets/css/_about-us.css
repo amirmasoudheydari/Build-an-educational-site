@@ -1,0 +1,55 @@
+
+.about-us-header h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+
+.about-us-header h3 span{
+    position: relative;
+}
+
+
+.about-us-header h3 span::before {
+    position: absolute;
+    top: 25px;
+    left: -44px;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: orange;
+}
+
+.about-us-header h3 span::after {
+    position: absolute;
+    top: 25px;
+    right: -40px;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: orange;
+}
+
+.about-us-text p{
+    color: #493636;
+}
+
+.about-us-text a {
+    background-color: #ffa500;
+    color: white;
+    padding: 6px 10px;
+    transition: border-radius .5s ease;
+    float: left;
+}
+
+.about-us-text a:hover{
+    border-radius: 10px 0 10px 0;
+}
+
+.test{
+    text-align: center;
+}

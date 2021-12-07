@@ -1,0 +1,138 @@
+@import url(./_contact.css);
+@import url(./_menubars.css);
+@import url(./_content.css);
+@import url(./_header.css);
+@import url(./_about-us.css);
+@import url(./_teacher-wrapper.css);
+@import url(./_state.css);
+@import url(./_topic.css);
+@import url(./_faq.css);
+@import url(./_footer.css);
+
+:root{
+    --bs-gray: #737373;
+}
+
+*,body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: iransans;
+}
+
+li,
+a{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px) {
+   
+    .hidden{
+        display:none;
+    }
+
+    .menu-bars{
+        margin-right: -174px;
+    }
+
+    .show{
+        display: block;
+    }
+
+    .menu ul li{
+        border-bottom: none !important;
+    }
+
+    .up{
+        color: red;
+    }
+
+
+    .filter .title {
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .header-img .filter {
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(0, 0, 0, .38);
+    }
+
+    .header-image {
+        width: 100%;
+        height: 30vh ;
+    }
+
+    .content{
+        overflow: hidden;
+    }
+
+
+    .contact-left ul {
+        display: flex;
+        justify-content:unset;
+    }
+
+    .menu-bars {
+        position: absolute;
+        top: 17px;
+        left: 26px;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width:601px) {
+    .md-hidden{
+        display: none;
+    }
+
+    .md-show{
+        display: block;
+    }
+
+    .menu ul li:nth-last-child(1){
+        display: none;
+    }
+}
+
+
+
+.figure{
+    position: relative;
+}
+
+
+
+@font-face {
+    font-family: Vazir;
+    src: url('../webfonts/Vazir-Regular.eot') format('eot')
+    url('../webfonts/Vazir-Regular.woff') format('woff'),
+    url('../webfonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.valid{
+    border: 2px solid #07ad30;
+}
+
+.unvalid{
+    border: 2px solid #e90c0c;
+}
+
+.clock{
+    text-align: center;
+    font-size: 24px;
+    direction: ltr;
+    color: #e82c2c;
+}

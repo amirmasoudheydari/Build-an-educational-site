@@ -1,0 +1,39 @@
+/* start header */
+
+.header-image{
+    width: 100%;
+    height: 90vh;
+}
+
+.header-img .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, .38);
+}
+
+.filter{
+    position: absolute;
+}
+
+.filter h1,h3{
+    margin: 20px 30px;
+}
+
+.filter a{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 13px;
+    margin-left: 60px;
+    float: left;
+}
+
+.filter .title{
+    max-width: 400px;
+    margin: 250px;
+
+}
+
+.header .col-12{
+    padding: 0px;
+}

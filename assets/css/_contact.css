@@ -1,0 +1,74 @@
+/* start section contact  */
+
+.contact{
+    height: 40px;
+    background-color: rgb(85, 108, 236);
+    overflow: hidden;
+}
+
+.contact-row{
+    display: flex;
+}
+
+.fa-phone{
+    margin-right: 1px;
+    color: orange;
+
+}
+
+.row{
+    height: 100%;
+}
+
+.row:nth-child(1){
+    height: 100%;
+}
+
+.phone span{
+    vertical-align:-10px;
+}
+
+.contact-right{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.email span{
+    vertical-align: -10px;
+    margin-right: 20px;
+}
+
+.fa-envelope{
+    margin-right: 5px;
+    color: orange;
+}
+
+.contact-left{
+    justify-content: center;
+}
+
+.contact-left ul{
+    display: flex;
+    justify-content: left;
+}
+
+.contact-left ul li{
+    margin-right: 5px;
+    list-style: none;;
+}
+
+.contact-left ul li a{
+    vertical-align: -13px;
+    padding: 10px;
+}
+
+.contact-left ul li a:hover{
+    background-color: orange;
+}
+
+.contact-left ul li a svg{
+    color: white;
+    font-size: 20px;
+
+}
+/* end section contact  */
